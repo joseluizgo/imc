@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://kit.fontawesome.com/6db746f974.js" crossorigin="anonymous"></script>
+    <title>Calculadora - IMC</title>
+</head>
+<body>
+    <div class="tela">
+        <section class="img-left">
+            <img src="src/imagem/undraw_morning-workout_73u9.svg" alt="Treino">
+        </section>
+        <section class="form-right">
+            <h1 id="titulo"><span>Calcule</span> seu <strong>IMC</strong></h1>
+            <form>
+                <div id="peso">
+                    <label for="weight"><i class="fa-solid fa-weight-hanging"></i></label>
+                    <input type="number" id="weight" required>Kg
+                </div>
+                <div id="altura">
+                    <label for="height"><i class="fa-solid fa-ruler"></i></label>
+                    <input type="number" id="height" required> M
+                </div>
+                <span id="imc" class="hidden"></span>
+                <span id="frase" class="hidden"></span>
+                <button id="btn">Calcular</button>
+                <a href="https://www.tuasaude.com/imc/" target="_blank" rel="nofollow">Acesse para mais informações</a>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
