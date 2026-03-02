@@ -123,7 +123,7 @@ a:hover {
 }
 
 .hidden {
-    font-size: 2em;
+    font-size: 1em;
 }
 
 @media (max-width: 1020px) {
